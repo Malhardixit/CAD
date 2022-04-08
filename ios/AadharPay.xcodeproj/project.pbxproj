@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AadharPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AadharPayTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D0CEB76B9FBE4C6594FBFBF9 /* PaletteMosaic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B937385CE294A9A86E3154F /* PaletteMosaic-Regular.ttf */; };
+		F94F1333139F4274BB89D164 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8B41CE760C849698D9E3DF4 /* Poppins-Black.ttf */; };
+		CF17DE07E8C0415B90E96E0F /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A3BC25D11D74BFFBAEF0123 /* Poppins-BlackItalic.ttf */; };
+		AAFEEE80B5A94BF3AA24AA65 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4267696E17A46E2AD804612 /* Poppins-Bold.ttf */; };
+		A5AE0A830C5E461EBFFD8929 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C66D6CF73A2246D89A2B4C44 /* Poppins-BoldItalic.ttf */; };
+		AA3F1D34D77F433EAB3D8AFA /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D9AB66E260A40948E6D115E /* Poppins-ExtraBold.ttf */; };
+		D2F2736197574B71A3AD8C90 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C65A3B5326F48779C3F4F47 /* Poppins-ExtraBoldItalic.ttf */; };
+		721023B08AC5481FB7FBB499 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F8E58452486442CBADCA4F0 /* Poppins-ExtraLight.ttf */; };
+		0021D0A234BF4895A956D8C3 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9374ABA818E141EDBB804DD5 /* Poppins-ExtraLightItalic.ttf */; };
+		B4FE3A28BB8B4DCE869DA2A1 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2303EDB964F5E895D82DA /* Poppins-Italic.ttf */; };
+		6692E3C34DAD494F99D4DC15 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DACCF563134F65A76768BF /* Poppins-Light.ttf */; };
+		31C10823D081449E8DD7DF8C /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F7FE6F161AC42D5A71653CF /* Poppins-LightItalic.ttf */; };
+		08EE8D03FCF3441B83BB3675 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB16DFB47D84A7DB70D4068 /* Poppins-Medium.ttf */; };
+		384B5E8898154A7CBE674C20 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C19E7057B6AA40D79793DE6D /* Poppins-MediumItalic.ttf */; };
+		1230FC85BCE94CD7960F570B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514DAA1217094B1393845141 /* Poppins-Regular.ttf */; };
+		8A6BB957F0C149D2A0286D82 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72C28B7668094719AF3D786D /* Poppins-SemiBold.ttf */; };
+		33010AF3E5054347A376A514 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89CBB479A7574473BB3DC890 /* Poppins-SemiBoldItalic.ttf */; };
+		2AD28C052C6F4061A0AA44D5 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA03EA610C4E4A179BCF2B49 /* Poppins-Thin.ttf */; };
+		8B8F45D9DB2347FFB9ED5748 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 689BE0DAA60846449799BFC2 /* Poppins-ThinItalic.ttf */; };
+		01EEE2D494A24D3CA683CD26 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E2916DA08E240C1AFF5BA3D /* Roboto-Black.ttf */; };
+		47D035626A684C1191B47479 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47CAE238ADCB466AA591C92C /* Roboto-BlackItalic.ttf */; };
+		CFCAE8A552F74F69B64C923A /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB8295313D44CB5B7502AFF /* Roboto-Bold.ttf */; };
+		6D015CD80D0C4154B1531AC9 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 754F2320A8A247AB92368DBF /* Roboto-BoldItalic.ttf */; };
+		8DA59FB4A9D0444295076BE1 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97CA247452694EB5B64F9978 /* Roboto-Italic.ttf */; };
+		CF6A7935C15A44D098E4546B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BD0DEA872BB498E8F32E9E9 /* Roboto-Light.ttf */; };
+		EA9A4B871541416AA3FEDE23 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643000CDF20940198D5BF25E /* Roboto-LightItalic.ttf */; };
+		470D6BEB6101400EA84CAC60 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9F80B32EBF44CBF889D1566 /* Roboto-Medium.ttf */; };
+		4E7816EFD69A45158EC0DDCA /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 559D4D875936493DBB76E88A /* Roboto-MediumItalic.ttf */; };
+		652BFF4F7AAA41179E6EA835 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFD891DFB68C42C68ED30766 /* Roboto-Regular.ttf */; };
+		67B74857F46748B98075B6C3 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02BE018CEC1A4574A084610E /* Roboto-Thin.ttf */; };
+		D40A35512C014C009C80BFCA /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11E970DBD3B448D99101C799 /* Roboto-ThinItalic.ttf */; };
+		AC963D26C71149AC89A8BA52 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5A9E6518F04D4DAF75269D /* AntDesign.ttf */; };
+		28B138AFD9A5420DA8CC3AFC /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F155D008936451BB23D2512 /* Entypo.ttf */; };
+		688A7D8E1EC8449EAA5D7E0E /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9EE87DFF3D945CA9B674C5A /* EvilIcons.ttf */; };
+		5C7D8354CFB546349CE65E8E /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D11B09AD5874BE1B0066799 /* Feather.ttf */; };
+		376FB243790743D390DDB487 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46FE01F272114A57B2CF6E3F /* FontAwesome.ttf */; };
+		AF2CEE03ACDD4D9B9687D768 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26C1BCF3F6C74D9187C68316 /* FontAwesome5_Brands.ttf */; };
+		83371DE3480B4FB3B2348D7A /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94323CEFE4094EABADC08062 /* FontAwesome5_Regular.ttf */; };
+		6F61A83143D8405CA0BA86B3 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0987699BED340FB94459AC6 /* FontAwesome5_Solid.ttf */; };
+		F629F31F748A4813B0C463BC /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0066F95DB1E1421D8E8968F0 /* Fontisto.ttf */; };
+		7A990E25DAB04C06A4DBF36A /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4DFB211CE6443F08FA36508 /* Foundation.ttf */; };
+		6E80ED65D82346A288335299 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDFE38E9AE434D86837851 /* Ionicons.ttf */; };
+		50A621690F4F4110BA4DB8F8 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3C4707DC5CA4532B8ED7254 /* MaterialIcons.ttf */; };
+		5ABD3B6B22754AB6A15827DB /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8ABBACCE3F084B4AA427B16F /* Octicons.ttf */; };
+		D90A758D40074B319AD42FF8 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22FC56A4EFDC4E63B41915FB /* SimpleLineIcons.ttf */; };
+		75B225DE85334E689F9292EE /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C9CF24527C48C0892C66AB /* Zocial.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = AadharPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* AadharPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AadharPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AadharPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AadharPayTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* AadharPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AadharPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AadharPay/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AadharPay/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AadharPay/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AadharPay/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AadharPay/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AadharPay/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		2B937385CE294A9A86E3154F /* PaletteMosaic-Regular.ttf */ = {isa = PBXFileReference; name = "PaletteMosaic-Regular.ttf"; path = "../assets/fonts/PaletteMosaic-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8B41CE760C849698D9E3DF4 /* Poppins-Black.ttf */ = {isa = PBXFileReference; name = "Poppins-Black.ttf"; path = "../assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A3BC25D11D74BFFBAEF0123 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-BlackItalic.ttf"; path = "../assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D4267696E17A46E2AD804612 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C66D6CF73A2246D89A2B4C44 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-BoldItalic.ttf"; path = "../assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D9AB66E260A40948E6D115E /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C65A3B5326F48779C3F4F47 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBoldItalic.ttf"; path = "../assets/fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F8E58452486442CBADCA4F0 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLight.ttf"; path = "../assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9374ABA818E141EDBB804DD5 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLightItalic.ttf"; path = "../assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0ED2303EDB964F5E895D82DA /* Poppins-Italic.ttf */ = {isa = PBXFileReference; name = "Poppins-Italic.ttf"; path = "../assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		49DACCF563134F65A76768BF /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F7FE6F161AC42D5A71653CF /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-LightItalic.ttf"; path = "../assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7EB16DFB47D84A7DB70D4068 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C19E7057B6AA40D79793DE6D /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-MediumItalic.ttf"; path = "../assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		514DAA1217094B1393845141 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72C28B7668094719AF3D786D /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		89CBB479A7574473BB3DC890 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBoldItalic.ttf"; path = "../assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA03EA610C4E4A179BCF2B49 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		689BE0DAA60846449799BFC2 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-ThinItalic.ttf"; path = "../assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9E2916DA08E240C1AFF5BA3D /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47CAE238ADCB466AA591C92C /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CBB8295313D44CB5B7502AFF /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		754F2320A8A247AB92368DBF /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97CA247452694EB5B64F9978 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5BD0DEA872BB498E8F32E9E9 /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		643000CDF20940198D5BF25E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A9F80B32EBF44CBF889D1566 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		559D4D875936493DBB76E88A /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AFD891DFB68C42C68ED30766 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02BE018CEC1A4574A084610E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11E970DBD3B448D99101C799 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F5A9E6518F04D4DAF75269D /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F155D008936451BB23D2512 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C9EE87DFF3D945CA9B674C5A /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4D11B09AD5874BE1B0066799 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		46FE01F272114A57B2CF6E3F /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26C1BCF3F6C74D9187C68316 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		94323CEFE4094EABADC08062 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F0987699BED340FB94459AC6 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0066F95DB1E1421D8E8968F0 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D4DFB211CE6443F08FA36508 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FDDFE38E9AE434D86837851 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3C4707DC5CA4532B8ED7254 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8ABBACCE3F084B4AA427B16F /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22FC56A4EFDC4E63B41915FB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27C9CF24527C48C0892C66AB /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AadharPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AadharPayTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AadharPayTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* AadharPay */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = AadharPay;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* AadharPay */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AadharPayTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				B12F819CFC9548B6A1179B63 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* AadharPay.app */,
+				00E356EE1AD99517003FC87E /* AadharPayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B12F819CFC9548B6A1179B63 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				2B937385CE294A9A86E3154F /* PaletteMosaic-Regular.ttf */,
+				B8B41CE760C849698D9E3DF4 /* Poppins-Black.ttf */,
+				1A3BC25D11D74BFFBAEF0123 /* Poppins-BlackItalic.ttf */,
+				D4267696E17A46E2AD804612 /* Poppins-Bold.ttf */,
+				C66D6CF73A2246D89A2B4C44 /* Poppins-BoldItalic.ttf */,
+				3D9AB66E260A40948E6D115E /* Poppins-ExtraBold.ttf */,
+				4C65A3B5326F48779C3F4F47 /* Poppins-ExtraBoldItalic.ttf */,
+				6F8E58452486442CBADCA4F0 /* Poppins-ExtraLight.ttf */,
+				9374ABA818E141EDBB804DD5 /* Poppins-ExtraLightItalic.ttf */,
+				0ED2303EDB964F5E895D82DA /* Poppins-Italic.ttf */,
+				49DACCF563134F65A76768BF /* Poppins-Light.ttf */,
+				8F7FE6F161AC42D5A71653CF /* Poppins-LightItalic.ttf */,
+				7EB16DFB47D84A7DB70D4068 /* Poppins-Medium.ttf */,
+				C19E7057B6AA40D79793DE6D /* Poppins-MediumItalic.ttf */,
+				514DAA1217094B1393845141 /* Poppins-Regular.ttf */,
+				72C28B7668094719AF3D786D /* Poppins-SemiBold.ttf */,
+				89CBB479A7574473BB3DC890 /* Poppins-SemiBoldItalic.ttf */,
+				CA03EA610C4E4A179BCF2B49 /* Poppins-Thin.ttf */,
+				689BE0DAA60846449799BFC2 /* Poppins-ThinItalic.ttf */,
+				9E2916DA08E240C1AFF5BA3D /* Roboto-Black.ttf */,
+				47CAE238ADCB466AA591C92C /* Roboto-BlackItalic.ttf */,
+				CBB8295313D44CB5B7502AFF /* Roboto-Bold.ttf */,
+				754F2320A8A247AB92368DBF /* Roboto-BoldItalic.ttf */,
+				97CA247452694EB5B64F9978 /* Roboto-Italic.ttf */,
+				5BD0DEA872BB498E8F32E9E9 /* Roboto-Light.ttf */,
+				643000CDF20940198D5BF25E /* Roboto-LightItalic.ttf */,
+				A9F80B32EBF44CBF889D1566 /* Roboto-Medium.ttf */,
+				559D4D875936493DBB76E88A /* Roboto-MediumItalic.ttf */,
+				AFD891DFB68C42C68ED30766 /* Roboto-Regular.ttf */,
+				02BE018CEC1A4574A084610E /* Roboto-Thin.ttf */,
+				11E970DBD3B448D99101C799 /* Roboto-ThinItalic.ttf */,
+				8F5A9E6518F04D4DAF75269D /* AntDesign.ttf */,
+				6F155D008936451BB23D2512 /* Entypo.ttf */,
+				C9EE87DFF3D945CA9B674C5A /* EvilIcons.ttf */,
+				4D11B09AD5874BE1B0066799 /* Feather.ttf */,
+				46FE01F272114A57B2CF6E3F /* FontAwesome.ttf */,
+				26C1BCF3F6C74D9187C68316 /* FontAwesome5_Brands.ttf */,
+				94323CEFE4094EABADC08062 /* FontAwesome5_Regular.ttf */,
+				F0987699BED340FB94459AC6 /* FontAwesome5_Solid.ttf */,
+				0066F95DB1E1421D8E8968F0 /* Fontisto.ttf */,
+				D4DFB211CE6443F08FA36508 /* Foundation.ttf */,
+				8FDDFE38E9AE434D86837851 /* Ionicons.ttf */,
+				C3C4707DC5CA4532B8ED7254 /* MaterialIcons.ttf */,
+				8ABBACCE3F084B4AA427B16F /* Octicons.ttf */,
+				22FC56A4EFDC4E63B41915FB /* SimpleLineIcons.ttf */,
+				27C9CF24527C48C0892C66AB /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AadharPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AadharPayTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AadharPayTests;
+			productName = AadharPayTests;
+			productReference = 00E356EE1AD99517003FC87E /* AadharPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* AadharPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AadharPay" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AadharPay;
+			productName = AadharPay;
+			productReference = 13B07F961A680F5B00A75B9A /* AadharPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AadharPay" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* AadharPay */,
+				00E356ED1AD99517003FC87E /* AadharPayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D0CEB76B9FBE4C6594FBFBF9 /* PaletteMosaic-Regular.ttf in Resources */,
+				F94F1333139F4274BB89D164 /* Poppins-Black.ttf in Resources */,
+				CF17DE07E8C0415B90E96E0F /* Poppins-BlackItalic.ttf in Resources */,
+				AAFEEE80B5A94BF3AA24AA65 /* Poppins-Bold.ttf in Resources */,
+				A5AE0A830C5E461EBFFD8929 /* Poppins-BoldItalic.ttf in Resources */,
+				AA3F1D34D77F433EAB3D8AFA /* Poppins-ExtraBold.ttf in Resources */,
+				D2F2736197574B71A3AD8C90 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				721023B08AC5481FB7FBB499 /* Poppins-ExtraLight.ttf in Resources */,
+				0021D0A234BF4895A956D8C3 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				B4FE3A28BB8B4DCE869DA2A1 /* Poppins-Italic.ttf in Resources */,
+				6692E3C34DAD494F99D4DC15 /* Poppins-Light.ttf in Resources */,
+				31C10823D081449E8DD7DF8C /* Poppins-LightItalic.ttf in Resources */,
+				08EE8D03FCF3441B83BB3675 /* Poppins-Medium.ttf in Resources */,
+				384B5E8898154A7CBE674C20 /* Poppins-MediumItalic.ttf in Resources */,
+				1230FC85BCE94CD7960F570B /* Poppins-Regular.ttf in Resources */,
+				8A6BB957F0C149D2A0286D82 /* Poppins-SemiBold.ttf in Resources */,
+				33010AF3E5054347A376A514 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				2AD28C052C6F4061A0AA44D5 /* Poppins-Thin.ttf in Resources */,
+				8B8F45D9DB2347FFB9ED5748 /* Poppins-ThinItalic.ttf in Resources */,
+				01EEE2D494A24D3CA683CD26 /* Roboto-Black.ttf in Resources */,
+				47D035626A684C1191B47479 /* Roboto-BlackItalic.ttf in Resources */,
+				CFCAE8A552F74F69B64C923A /* Roboto-Bold.ttf in Resources */,
+				6D015CD80D0C4154B1531AC9 /* Roboto-BoldItalic.ttf in Resources */,
+				8DA59FB4A9D0444295076BE1 /* Roboto-Italic.ttf in Resources */,
+				CF6A7935C15A44D098E4546B /* Roboto-Light.ttf in Resources */,
+				EA9A4B871541416AA3FEDE23 /* Roboto-LightItalic.ttf in Resources */,
+				470D6BEB6101400EA84CAC60 /* Roboto-Medium.ttf in Resources */,
+				4E7816EFD69A45158EC0DDCA /* Roboto-MediumItalic.ttf in Resources */,
+				652BFF4F7AAA41179E6EA835 /* Roboto-Regular.ttf in Resources */,
+				67B74857F46748B98075B6C3 /* Roboto-Thin.ttf in Resources */,
+				D40A35512C014C009C80BFCA /* Roboto-ThinItalic.ttf in Resources */,
+				AC963D26C71149AC89A8BA52 /* AntDesign.ttf in Resources */,
+				28B138AFD9A5420DA8CC3AFC /* Entypo.ttf in Resources */,
+				688A7D8E1EC8449EAA5D7E0E /* EvilIcons.ttf in Resources */,
+				5C7D8354CFB546349CE65E8E /* Feather.ttf in Resources */,
+				376FB243790743D390DDB487 /* FontAwesome.ttf in Resources */,
+				AF2CEE03ACDD4D9B9687D768 /* FontAwesome5_Brands.ttf in Resources */,
+				83371DE3480B4FB3B2348D7A /* FontAwesome5_Regular.ttf in Resources */,
+				6F61A83143D8405CA0BA86B3 /* FontAwesome5_Solid.ttf in Resources */,
+				F629F31F748A4813B0C463BC /* Fontisto.ttf in Resources */,
+				7A990E25DAB04C06A4DBF36A /* Foundation.ttf in Resources */,
+				6E80ED65D82346A288335299 /* Ionicons.ttf in Resources */,
+				50A621690F4F4110BA4DB8F8 /* MaterialIcons.ttf in Resources */,
+				5ABD3B6B22754AB6A15827DB /* Octicons.ttf in Resources */,
+				D90A758D40074B319AD42FF8 /* SimpleLineIcons.ttf in Resources */,
+				75B225DE85334E689F9292EE /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AadharPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* AadharPay */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AadharPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AadharPay.app/AadharPay";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AadharPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AadharPay.app/AadharPay";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AadharPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AadharPay;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = AadharPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AadharPay;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AadharPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AadharPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AadharPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

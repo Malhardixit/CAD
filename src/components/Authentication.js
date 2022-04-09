@@ -15,6 +15,7 @@ import React, {useState, useEffect, useRef} from 'react';
 import Icon from 'react-native-vector-icons/Feather';
 import Splash from '../assets/consts/icon.svg';
 import Snackbar from 'react-native-snackbar';
+import DropDown from './Dropdown';
 
 const {height, width} = Dimensions.get('window');
 
@@ -97,6 +98,7 @@ export function Authentication({navigation}) {
           <View>
             <Text style={styles.title}>Enter Your Number &gt;</Text>
           </View>
+          <DropDown />
 
           <View>
             <TextInput
